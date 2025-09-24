@@ -1,4 +1,5 @@
 # Project Name
+
 Integrating Global Tumor Proteome Profile with Machine Learning to Predict Protein Subcellular Localization
 
 ## Description
@@ -26,12 +27,14 @@ conda activate localization_ML
 
 ## Folder and notebook description
 /raw_datasets
-Raw proteomics datasets (protein tables [*_ratio_protein_None.tsv] output from FragPipe)
-Cleaned Proteomics datasets [* prot model use.csv]
-Cleaned Transcriptomics datasets [* mrna model use.csv]
+Folder containing raw proteomics datasets (protein tables [*_ratio_protein_None.tsv] output from FragPipe), cleaned Proteomics datasets [* prot model use.csv] and cleaned Transcriptomics datasets [* mrna model use.csv]
 
 /processed_datasets
-Processed proteomics and transcriptomics datasets output from [Dataset generation.ipynb]. These are the datasets involved in model development and testing.
+Folder containing processed proteomics and transcriptomics datasets output from [Dataset generation.ipynb]. These are the datasets used in model development and testing.
 
+Dataset generation.ipynb
+Notebook for generating processed proteomics and transcriptomics datasets. Steps include normalization, quantile transformation, filtering, and joint KDE inference. Details are provided in the manuscript's methods section.
 
+/saved_models
+Folder containing trained models used for inference on independent test sets. [*_model.pth]
 
