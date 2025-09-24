@@ -26,6 +26,7 @@ conda activate localization_ML
 
 
 ## Folder and notebook description
+
 /raw_datasets
 Folder containing raw proteomics datasets (protein tables [*_ratio_protein_None.tsv] output from FragPipe), cleaned Proteomics datasets [* prot model use.csv] and cleaned Transcriptomics datasets [* mrna model use.csv]
 
