@@ -30,14 +30,14 @@ conda activate localization_ML
 ### [raw_datasets](raw_datasets)
 Folder containing raw proteomics datasets (protein tables "*XX_ratio_protein_None.tsv*" output from FragPipe), cleaned Proteomics datasets "*XX prot model use.csv*" and cleaned Transcriptomics datasets "*XX mrna model use.csv*".
 
-### [processed_datasets](processed_datasets)
+### [Dataset generation.ipynb](Dataset%20generation.ipynb)
+Notebook for generating processed proteomics and transcriptomics datasets. Steps include normalization, quantile transformation, and joint KDE inference. Details are provided in the manuscript's methods section.
+
+### [processed_datasets_unfiltered](processed_datasets_unfiltered)
 Folder containing processed proteomics and transcriptomics datasets output from [Dataset generation.ipynb](Dataset%20generation.ipynb). These are the datasets used in model development and testing.
 
-### [Dataset generation.ipynb](Dataset%20generation.ipynb)
-Notebook for generating processed proteomics and transcriptomics datasets. Steps include normalization, quantile transformation, filtering, and joint KDE inference. Details are provided in the manuscript's methods section.
-
 ### [labels](labels)
-Folder containing marker protein localization labels (markers.txt) and marker protein cluster information (markers_mclusters.txt) from [Orre et al.](https://www.cell.com/molecular-cell/fulltext/S1097-2765(18)31005-0?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276518310050%3Fshowall%3Dtrue). Uniprot protein localization label (uniprot_go_markers.txt) from Supplementary Table 2 in [Lund-Johansen et al.](https://www.nature.com/articles/nmeth.3967). Grouped result is grouping 11 compartments into four major compartment neighborhoods (uniprot_go_markers_grouped.txt).
+Folder containing marker protein localization labels (markers.txt) and marker protein cluster information (markers_mclusters.txt) from [Orre et al.](https://www.cell.com/molecular-cell/fulltext/S1097-2765(18)31005-0?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276518310050%3Fshowall%3Dtrue). UniProt protein localization label (uniprot_go_markers.txt) from Supplementary Table 2 in [Lund-Johansen et al.](https://www.nature.com/articles/nmeth.3967). Grouped result is grouping 11 compartments into four major compartment neighborhoods (uniprot_go_markers_grouped.txt). Modified labels is generated from cross-referencing marker protein localization labels and UniProt annotations. For proteins where the localization labels conflicted with UniProt annotations, they were reassigned based on the UniProt annotations (markers_modified_1.txt).
 
 ### [Label generation.ipynb](Label%20generation.ipynb)
 Notebook for generating modified labels [markers_modified_1.txt](labels/markers_modified_1.txt) used in Fig 5
