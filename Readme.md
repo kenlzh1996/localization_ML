@@ -23,7 +23,7 @@ Folder containing processed proteomics and transcriptomics datasets output from 
 Folder containing marker protein localization labels (markers.txt) and marker protein cluster information (markers_mclusters.txt) from [Orre et al.](https://www.cell.com/molecular-cell/fulltext/S1097-2765(18)31005-0?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276518310050%3Fshowall%3Dtrue). UniProt protein localization label curated in MetaMass(uniprot_go_markers.txt) from Supplementary Table 2 in [Lund-Johansen et al.](https://www.nature.com/articles/nmeth.3967). Grouped result is grouping 11 compartments into four major compartment neighborhoods (uniprot_go_markers_grouped.txt). Modified labels is generated from cross-referencing marker protein localization labels and MetaMass annotations. For proteins where the localization labels conflicted with MetaMass annotations, they were reassigned based on the MetaMass annotations (markers_modified_1.txt).
 
 ### [Label generation.ipynb](Label%20generation.ipynb)
-Notebook for generating modified labels [markers_modified_1.txt](labels/markers_modified_1.txt) used in Fig 5
+Notebook for generating modified labels [markers_modified_1.txt](labels/markers_modified_1.txt) used in Fig 4
 
 ### [NN_tables](NN_tables)
 Folder containing CSV files recording metrics throughout the training process. Metrics include loss, accuracy, precision and recall of each class, marco F1 score throughout epochs. Per compartment precision, recall and F1 score from 5 fold cross-validation. Protein, mRNA, and Protein + mRNA indicate the model input.
