@@ -8,20 +8,6 @@ ML framework of predicting protein subcellular localization using global protein
 
 Citation TBD
 
-## Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/kenlzh1996/localization_ML.git
-
-# Navigate to the project directory
-cd localization_ML
-
-# Create an environment based on the environment file
-conda env create -f environment.yml
-conda activate localization_ML
-```
-
 ## Folder and notebook description
 
 ### [raw_datasets](raw_datasets)
