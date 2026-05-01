@@ -44,4 +44,4 @@ Folder containing figures used for Figure 3 and S3 in the manuscript. Figures ar
 Folder containing figures used for Figure 4 in the manuscript. Figures are generated from [Fig4_Enrichr_Ranked_Prot_Marker_Localization.ipynb](Fig4_Enrichr_Ranked_Prot_Marker_Localization.ipynb) and [comparision of markers.ipynb](comparision%20of%20markers.ipynb)
 
 ### [FigS4_Enrichr_Ranked_Prot_Modified_Marker_Localization](FigS4_Enrichr_Ranked_Prot_Modified_Marker_Localization)
-Folder containing figures used for Figure 5 in the manuscript. Figures are generated from [FigS4_Enrichr_Ranked_Prot_Modified_Marker_Localization.ipynb](FigS4_Enrichr_Ranked_Prot_Modified_Marker_Localization.ipynb) and [FigS4_Training_CNN_Prot_Ranked_Input_Modified_Label.ipynb](Fig5_customNN%20prot%20ranked%20input%20modified%20label.ipynb)
+Folder containing figures used for Figure S4 in the manuscript. Figures are generated from [FigS4_Enrichr_Ranked_Prot_Modified_Marker_Localization.ipynb](FigS4_Enrichr_Ranked_Prot_Modified_Marker_Localization.ipynb) and [FigS4_Training_CNN_Prot_Ranked_Input_Modified_Label.ipynb](Fig5_customNN%20prot%20ranked%20input%20modified%20label.ipynb)
