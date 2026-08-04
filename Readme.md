@@ -31,10 +31,10 @@ Folder containing CSV files recording metrics throughout the training process. M
 ### [saved_models](saved_models)
 Folder containing trained models as parameter dictionaries (.pth) used for inference on independent testing sets.
 
-### [Fig1_FigS2_UMAP](Fig1_FigS1_UMAP)
+### [Fig1_FigS2_UMAP](Fig1_FigS2_UMAP)
 Folder containing figures used for Figure 1 and S2 in the manuscript. Figures are generated from [Dimension reduction figures.ipynb](Dimension%20reduction%20figures.ipynb)
 
-### [Fig3_FigS3_NN_figures](Fig3_FigS2_NN_figures)
+### [Fig3_FigS3_NN_figures](Fig3_FigS3_NN_figures)
 Folder containing figures used for Figure 3 and S3 in the manuscript. Figures are generated from [Fig3_Training_CNN_Prot_Unranked_Input.ipynb](Fig3_customNN%20prot%20unranked%20input.ipynb),
 [Fig3_Training_CNN_Prot_Ranked_Input.ipynb](Fig3_customNN%20prot%20ranked%20input.ipynb),
 [FigS3_Training_CNN_mRNA_Input.ipynb](FigS3_customNN%20mRNA%20input.ipynb) and
