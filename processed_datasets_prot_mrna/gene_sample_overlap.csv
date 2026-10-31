@@ -1,0 +1,6 @@
+cohort,n_proteins,n_transcripts,n_shared_genes,n_proteome_tumors,n_transcriptome_tumors,n_shared_tumors
+Training,7902,7902,7902,121,121,121
+Breast_tumor,6733,6733,6733,77,77,77
+Lung_tumor,8608,8608,8608,108,108,108
+Lung_NAT,8658,8658,8658,94,94,94
+Brain_tumor,8189,8189,8189,99,99,99

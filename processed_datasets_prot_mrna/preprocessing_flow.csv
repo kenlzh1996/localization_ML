@@ -1,0 +1,76 @@
+cohort,omic,step,n_genes,n_samples
+Training,proteome,raw table,12667,135
+Training,proteome,after sample exclusions,12667,130
+Training,proteome,after averaging replicates,12667,122
+Training,transcriptome,raw table,19938,121
+Training,proteome,after matching tumors,12667,121
+Training,transcriptome,after matching tumors,19938,121
+Training,proteome,after merging duplicate gene symbols,12650,121
+Training,proteome,after missing-value filter (>= 100% observed),8406,121
+Training,transcriptome,after removing zero-TPM genes,13627,121
+Training,transcriptome,after merging duplicate gene symbols,13627,121
+Training,transcriptome,after missing-value filter (>= 100% observed),13627,121
+Training,proteome,after matching genes,7902,121
+Training,transcriptome,after matching genes,7902,121
+Training,proteome,"processed (mean, tumor median, log2, robust scaling)",7902,121
+Training,transcriptome,"processed (mean, tumor median, log2, robust scaling)",7902,121
+Breast_tumor,proteome,raw table,12302,111
+Breast_tumor,proteome,after sample exclusions,12302,83
+Breast_tumor,proteome,after averaging replicates,12302,77
+Breast_tumor,transcriptome,raw table,19938,77
+Breast_tumor,proteome,after matching tumors,12302,77
+Breast_tumor,transcriptome,after matching tumors,19938,77
+Breast_tumor,proteome,after merging duplicate gene symbols,12302,77
+Breast_tumor,proteome,after missing-value filter (>= 100% observed),7097,77
+Breast_tumor,transcriptome,after removing zero-TPM genes,14229,77
+Breast_tumor,transcriptome,after merging duplicate gene symbols,14229,77
+Breast_tumor,transcriptome,after missing-value filter (>= 100% observed),14229,77
+Breast_tumor,proteome,after matching genes,6733,77
+Breast_tumor,transcriptome,after matching genes,6733,77
+Breast_tumor,proteome,"processed (mean, tumor median, log2, robust scaling)",6733,77
+Breast_tumor,transcriptome,"processed (mean, tumor median, log2, robust scaling)",6733,77
+Lung_tumor,proteome,raw table,13506,108
+Lung_tumor,proteome,after sample exclusions,13506,108
+Lung_tumor,proteome,after averaging replicates,13506,108
+Lung_tumor,transcriptome,raw table,19938,108
+Lung_tumor,proteome,after matching tumors,13506,108
+Lung_tumor,transcriptome,after matching tumors,19938,108
+Lung_tumor,proteome,after merging duplicate gene symbols,13483,108
+Lung_tumor,proteome,after missing-value filter (>= 100% observed),9045,108
+Lung_tumor,transcriptome,after removing zero-TPM genes,15387,108
+Lung_tumor,transcriptome,after merging duplicate gene symbols,15387,108
+Lung_tumor,transcriptome,after missing-value filter (>= 100% observed),15387,108
+Lung_tumor,proteome,after matching genes,8608,108
+Lung_tumor,transcriptome,after matching genes,8608,108
+Lung_tumor,proteome,"processed (mean, tumor median, log2, robust scaling)",8608,108
+Lung_tumor,transcriptome,"processed (mean, tumor median, log2, robust scaling)",8608,108
+Lung_NAT,proteome,raw table,13506,94
+Lung_NAT,proteome,after sample exclusions,13506,94
+Lung_NAT,proteome,after averaging replicates,13506,94
+Lung_NAT,transcriptome,raw table,19938,94
+Lung_NAT,proteome,after matching tumors,13506,94
+Lung_NAT,transcriptome,after matching tumors,19938,94
+Lung_NAT,proteome,after merging duplicate gene symbols,13483,94
+Lung_NAT,proteome,after missing-value filter (>= 100% observed),9041,94
+Lung_NAT,transcriptome,after removing zero-TPM genes,16095,94
+Lung_NAT,transcriptome,after merging duplicate gene symbols,16095,94
+Lung_NAT,transcriptome,after missing-value filter (>= 100% observed),16095,94
+Lung_NAT,proteome,after matching genes,8658,94
+Lung_NAT,transcriptome,after matching genes,8658,94
+Lung_NAT,proteome,"processed (mean, tumor median, log2, robust scaling)",8658,94
+Lung_NAT,transcriptome,"processed (mean, tumor median, log2, robust scaling)",8658,94
+Brain_tumor,proteome,raw table,13295,150
+Brain_tumor,proteome,after sample exclusions,13295,102
+Brain_tumor,proteome,after averaging replicates,13295,102
+Brain_tumor,transcriptome,raw table,19938,203
+Brain_tumor,proteome,after matching tumors,13295,99
+Brain_tumor,transcriptome,after matching tumors,19938,99
+Brain_tumor,proteome,after merging duplicate gene symbols,13276,99
+Brain_tumor,proteome,after missing-value filter (>= 100% observed),8582,99
+Brain_tumor,transcriptome,after removing zero-TPM genes,15194,99
+Brain_tumor,transcriptome,after merging duplicate gene symbols,15194,99
+Brain_tumor,transcriptome,after missing-value filter (>= 100% observed),15194,99
+Brain_tumor,proteome,after matching genes,8189,99
+Brain_tumor,transcriptome,after matching genes,8189,99
+Brain_tumor,proteome,"processed (mean, tumor median, log2, robust scaling)",8189,99
+Brain_tumor,transcriptome,"processed (mean, tumor median, log2, robust scaling)",8189,99

@@ -1,0 +1,65 @@
+{
+  "normalization": "gene mean division; tumor median division; log2; tumor robust scaling (IQR/1.349)",
+  "MIN_FRACTION_OBSERVED": 1.0,
+  "SHARED_TUMORS_ONLY": true,
+  "SHARED_GENES_ONLY": true,
+  "FIXED_LENGTH": 77,
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.6"
+  },
+  "cohorts": {
+    "Training": {
+      "file": "krug prot model use.csv",
+      "index_col": "Index",
+      "mrna_file": "krug mrna model use.csv",
+      "mrna_index_col": "Index",
+      "drop_keywords": [
+        "notinstudy",
+        "Retro"
+      ],
+      "out": "Training"
+    },
+    "Breast_tumor": {
+      "file": "breast prot model use.csv",
+      "index_col": "Index",
+      "mrna_file": "breast mrna model use.csv",
+      "mrna_index_col": "gene_name",
+      "drop_keywords": [
+        "notinstudy"
+      ],
+      "out": "breast_tumor"
+    },
+    "Lung_tumor": {
+      "file": "lung tumor prot model use.csv",
+      "index_col": 0,
+      "mrna_file": "lung tumor mrna model use.csv",
+      "mrna_index_col": 0,
+      "drop_keywords": [],
+      "out": "lung_tumor"
+    },
+    "Lung_NAT": {
+      "file": "lung nat prot model use.csv",
+      "index_col": 0,
+      "mrna_file": "lung nat mrna model use.csv",
+      "mrna_index_col": 0,
+      "drop_keywords": [],
+      "out": "lung_nat"
+    },
+    "Brain_tumor": {
+      "file": "brain prot model use.csv",
+      "index_col": 0,
+      "mrna_file": "brain mrna model use.csv",
+      "mrna_index_col": 0,
+      "drop_keywords": [
+        "Disqualified",
+        "Recurrent",
+        "Metastatic",
+        "Solid-Tissue-Normal",
+        "ref2"
+      ],
+      "strip_suffix": "-Primary-Tumor",
+      "out": "brain_tumor"
+    }
+  }
+}
