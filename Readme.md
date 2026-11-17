@@ -34,10 +34,21 @@ Folder containing the output from [Dataset_generation.ipynb](Dataset_generation.
 - "*preprocessing_settings.json*": settings, package versions and cohort configuration used for the run.
 
 ### [labels](labels)
-Folder containing marker protein localization labels (markers.txt) and marker protein cluster information (markers_mclusters.txt) from [Orre et al.](https://www.cell.com/molecular-cell/fulltext/S1097-2765(18)31005-0?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276518310050%3Fshowall%3Dtrue). UniProt protein localization label curated in MetaMass(uniprot_go_markers.txt) from Supplementary Table 2 in [Lund-Johansen et al.](https://www.nature.com/articles/nmeth.3967). Grouped result is grouping 11 compartments into four major compartment neighborhoods (uniprot_go_markers_grouped.txt). Modified labels is generated from cross-referencing marker protein localization labels and MetaMass annotations. For proteins where the localization labels conflicted with MetaMass annotations, they were reassigned based on the MetaMass annotations (markers_modified_1.txt).
+Folder containing marker protein localization labels (orre_markers.txt) and marker protein cluster information (markers_mclusters.txt) from [Orre et al.](https://www.cell.com/molecular-cell/fulltext/S1097-2765(18)31005-0?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276518310050%3Fshowall%3Dtrue). UniProt protein localization label curated in MetaMass(metamass_uniprot_go_markers.txt) from Supplementary Table 2 in [Lund-Johansen et al.](https://www.nature.com/articles/nmeth.3967). Grouped result is grouping 11 compartments into four major compartment neighborhoods (metamass_uniprot_go_markers_grouped.txt). Modified labels is generated from cross-referencing marker protein localization labels and MetaMass annotations. For proteins where the localization labels conflicted with MetaMass annotations, they were reassigned based on the MetaMass annotations (markers_modified_1.txt).
 
-### [Label generation.ipynb](Label%20generation.ipynb)
-Notebook for generating modified labels [markers_modified_1.txt](labels/markers_modified_1.txt) used in Fig 4
+Curated labels used by every analysis, output from [Label_generation.ipynb](Label_generation.ipynb):
+- "*markers_curated.txt*": marker proteins from Orre et al. after removing those whose compartment conflicts with the MetaMass annotations or with the Human Protein Atlas subcellular locations ("*hpa_subcellular_location.tsv*", downloaded from the Human Protein Atlas). Labels are only removed, never changed.
+- "*marker_conflicts.tsv*": every removed marker with its Orre, MetaMass and Human Protein Atlas evidence.
+- "*label_curation_flow.csv*": number of markers after each curation step, in total and per compartment.
+- "*gene_localization_overlap.csv*": number of genes and labeled genes per cohort and per compartment, with the training pool (labeled genes in the training cohort) and the testing pool (labeled genes present in all five cohorts).
+- "*label_pools_venn.pdf*" / "*.png*": Venn diagram of the training and testing pools.
+
+### [Label_generation.ipynb](Label_generation.ipynb)
+Notebook for generating the curated labels [markers_curated.txt](labels/markers_curated.txt) and the label summary tables:
+1. Read the 3,365 marker proteins from Orre et al. (Cytosol, Mitochondria, Nucleus or Secretory).
+2. Remove markers whose compartment differs from the MetaMass annotation (250 removed).
+3. Remove markers whose compartment is not among their Human Protein Atlas locations (main and additional, reliability Enhanced or Supported only; 168 more removed), leaving 2,947 curated markers. Of the 418 removed markers, 172 conflict with MetaMass only, 168 with the Human Protein Atlas only and 78 with both.
+4. Count the labeled genes in each processed dataset: 2,310 in the training pool and 1,947 in the testing pool.
 
 ### [NN_tables](NN_tables)
 Folder containing CSV files recording metrics throughout the training process. Metrics include loss, accuracy, precision and recall of each class, marco F1 score throughout epochs. Per compartment precision, recall and F1 score from 5 fold cross-validation. Protein, mRNA, and Protein + mRNA indicate the model input.
