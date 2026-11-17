@@ -17,7 +17,7 @@
         "notinstudy",
         "Retro"
       ],
-      "out": "Training"
+      "out": "training"
     },
     "Breast_tumor": {
       "file": "breast prot model use.csv",

@@ -11,13 +11,27 @@ Citation TBD
 ## Folder and notebook description
 
 ### [raw_datasets](raw_datasets)
-Folder containing raw proteomics datasets (protein tables "*XX_ratio_protein_None.tsv*" output from FragPipe), cleaned Proteomics datasets "*XX prot model use.csv*" and cleaned Transcriptomics datasets "*XX mrna model use.csv*".
+Folder containing the input tables for five cohorts from four studies, named by first author: Krug (training breast tumor cohort), Mertins (breast tumor), Satpathy (lung tumor and lung NAT, normal adjacent tissue) and Liu (brain tumor).
+- "*XX_ratio_protein_None.tsv*": raw protein tables output from FragPipe.
+- "*XX prot model use.csv*": cleaned proteomics datasets (genes x samples). Values are protein ratios to the pooled reference, not log-transformed.
+- "*XX mrna model use.csv*": cleaned transcriptomics datasets (genes x samples). Values are TPM, not log-transformed.
 
-### [Dataset generation.ipynb](Dataset%20generation.ipynb)
-Notebook for generating processed proteomics and transcriptomics datasets. Details are provided in the manuscript's methods section.
+### [Dataset_generation.ipynb](Dataset_generation.ipynb)
+Notebook for generating the processed proteomics and transcriptomics datasets from the cleaned datasets in [raw_datasets](raw_datasets). Proteins and transcripts go through the same pipeline, per cohort:
+1. Proteome only: exclude samples that are not in the original study, then average technical replicates.
+2. Keep samples present in both proteome and transcriptome.
+3. Remove transcripts with a TPM of 0 in any sample, average rows sharing a gene symbol, and remove genes with any missing value.
+4. Keep genes that pass the filters in both proteome and transcriptome.
+5. Normalize: divide each gene by its mean across samples, divide each sample by its median across genes, take log2, then divide each sample by its robust spread, (Q75 - Q25) / 1.349, across its genes.
+
+Further details are provided in the notebook and in the manuscript's methods section.
 
 ### [processed_datasets_prot_mrna](processed_datasets_prot_mrna)
-Folder containing processed proteomics and transcriptomics datasets output from [Dataset generation.ipynb](Dataset%20generation.ipynb). These are the datasets used in model training and testing.
+Folder containing the output from [Dataset_generation.ipynb](Dataset_generation.ipynb). These are the datasets used in model training and testing.
+- "*XX_PD_processed.csv*" (proteome) and "*XX_MD_processed.csv*" (transcriptome): processed datasets (genes x samples), with genes and samples in alphabetical order. Within a cohort, the two files contain the same genes and the same samples. Each cohort keeps its own number of samples: 121 (training, Krug), 77 (breast_tumor, Mertins), 108 (lung_tumor, Satpathy), 94 (lung_nat, Satpathy) and 99 (brain_tumor, Liu).
+- "*preprocessing_flow.csv*": number of genes and samples after each step, per cohort.
+- "*gene_sample_overlap.csv*": number of genes and samples in the final proteome and transcriptome datasets, per cohort.
+- "*preprocessing_settings.json*": settings, package versions and cohort configuration used for the run.
 
 ### [labels](labels)
 Folder containing marker protein localization labels (markers.txt) and marker protein cluster information (markers_mclusters.txt) from [Orre et al.](https://www.cell.com/molecular-cell/fulltext/S1097-2765(18)31005-0?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1097276518310050%3Fshowall%3Dtrue). UniProt protein localization label curated in MetaMass(uniprot_go_markers.txt) from Supplementary Table 2 in [Lund-Johansen et al.](https://www.nature.com/articles/nmeth.3967). Grouped result is grouping 11 compartments into four major compartment neighborhoods (uniprot_go_markers_grouped.txt). Modified labels is generated from cross-referencing marker protein localization labels and MetaMass annotations. For proteins where the localization labels conflicted with MetaMass annotations, they were reassigned based on the MetaMass annotations (markers_modified_1.txt).
