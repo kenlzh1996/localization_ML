@@ -1,9 +1,8 @@
 {
-  "normalization": "gene mean division; tumor median division; log2; tumor robust scaling (IQR/1.349)",
+  "normalization": "gene mean division; sample median division; log2; sample robust scaling (IQR/1.349)",
   "MIN_FRACTION_OBSERVED": 1.0,
-  "SHARED_TUMORS_ONLY": true,
+  "SHARED_SAMPLES_ONLY": true,
   "SHARED_GENES_ONLY": true,
-  "FIXED_LENGTH": 77,
   "versions": {
     "numpy": "2.4.6",
     "pandas": "3.0.6"
