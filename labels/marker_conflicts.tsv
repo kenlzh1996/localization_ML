@@ -1,0 +1,419 @@
+Protein	Orre	MetaMass	HPA_reliability	HPA_main_location	HPA_additional_location	HPA_compartments	Conflict
+AAAS	Secretory	Nucleus	Supported	Nuclear membrane	Centrosome;Cytosol;End piece;Nucleoplasm	Cytosol;Nucleus	both
+ABHD6	Secretory	Mitochondria					MetaMass
+ABL1	Cytosol		Supported	Nucleoplasm	Nuclear bodies	Nucleus	HPA
+ACAP2	Cytosol	Secretory					MetaMass
+ACYP2	Cytosol	Mitochondria					MetaMass
+ADAT2	Cytosol	Nucleus					MetaMass
+ADI1	Cytosol		Supported	Nucleoplasm	Golgi apparatus	Nucleus;Secretory	HPA
+ADO	Cytosol	Mitochondria					MetaMass
+AGFG1	Cytosol		Supported	Vesicles		Secretory	HPA
+AGO2	Nucleus		Supported	Cytoplasmic bodies	Cytosol	Cytosol	HPA
+AK2	Nucleus	Mitochondria					MetaMass
+ALKBH3	Cytosol		Supported	Nucleoplasm	Mitochondria	Mitochondria;Nucleus	HPA
+AMDHD2	Cytosol	Nucleus					MetaMass
+AMOTL2	Cytosol	Secretory					MetaMass
+AREL1	Secretory	Cytosol					MetaMass
+ARFGEF2	Cytosol		Supported	Golgi apparatus		Secretory	HPA
+ARHGAP39	Secretory	Nucleus					MetaMass
+ARHGEF40	Secretory	Cytosol					MetaMass
+ARIH1	Cytosol	Cytosol	Supported	Nucleoplasm		Nucleus	HPA
+ARIH2	Cytosol		Enhanced	Nucleoplasm		Nucleus	HPA
+ARL13B	Secretory		Supported	Microtubules;Primary cilium;Primary cilium transition zone	Acrosome;Basal body;Cytokinetic bridge;End piece;Equatorial segment;Mid piece;Principal piece	Cytosol	HPA
+ARMC10	Mitochondria	Secretory	Enhanced	Mitochondria		Mitochondria	MetaMass
+ASPSCR1	Cytosol		Supported	Nucleoplasm	Plasma membrane;Vesicles	Nucleus;Secretory	HPA
+ATE1	Cytosol		Supported	Nucleoplasm		Nucleus	HPA
+ATG2B	Cytosol		Supported	Endoplasmic reticulum;Vesicles		Secretory	HPA
+ATXN3	Cytosol	Nucleus					MetaMass
+AVL9	Cytosol	Secretory					MetaMass
+BCL2L11	Secretory		Supported	Mitochondria		Mitochondria	HPA
+BIRC6	Cytosol		Supported	Golgi apparatus;Vesicles	Mitotic spindle	Secretory	HPA
+BMP2K	Secretory	Nucleus	Supported	Nuclear speckles		Nucleus	both
+BRCC3	Cytosol		Supported	Nucleoplasm		Nucleus	HPA
+C12orf57	Cytosol	Cytosol	Enhanced	Nuclear speckles		Nucleus	HPA
+C14orf119	Cytosol	Mitochondria	Supported	Mitochondria	Cytosol	Cytosol;Mitochondria	MetaMass
+C6orf47	Secretory	Cytosol					MetaMass
+CALR	Nucleus		Supported	Endoplasmic reticulum		Secretory	HPA
+CALU	Nucleus		Enhanced	Endoplasmic reticulum		Secretory	HPA
+CASK	Mitochondria		Supported	Nucleoplasm	Cytosol	Cytosol;Nucleus	HPA
+CBFB	Cytosol	Nucleus					MetaMass
+CC2D1B	Cytosol	Nucleus	Supported	Nucleoplasm	Vesicles	Nucleus;Secretory	both
+CCDC132	Cytosol	Secretory					MetaMass
+CCDC14	Secretory	Cytosol	Enhanced	Centriolar satellite	Basal body;Microtubules;Primary cilium	Cytosol	both
+CCDC22	Cytosol	Secretory					MetaMass
+CCDC58	Nucleus	Mitochondria					MetaMass
+CCDC61	Secretory	Cytosol					MetaMass
+CCDC93	Cytosol	Secretory	Enhanced	Vesicles	Plasma membrane	Secretory	both
+CD2AP	Cytosol		Supported	Plasma membrane	Centriolar satellite	Secretory	HPA
+CDC25C	Cytosol	Nucleus	Supported	Nuclear speckles		Nucleus	both
+CDK5	Cytosol		Supported	Nucleoplasm;Plasma membrane	Cell Junctions	Nucleus;Secretory	HPA
+CDS2	Secretory	Mitochondria					MetaMass
+CEP128	Mitochondria	Cytosol	Supported	Centrosome			MetaMass
+CEP89	Secretory		Supported	Cytosol	Basal body;Centrosome;Primary cilium	Cytosol	HPA
+CGRRF1	Secretory	Nucleus	Supported	Nucleoplasm	Vesicles	Nucleus;Secretory	MetaMass
+CIAPIN1	Cytosol		Supported	Mitochondria	Nucleoplasm	Mitochondria;Nucleus	HPA
+CKAP2L	Nucleus		Supported	Microtubules	Cytosol;Mitotic spindle;Primary cilium	Cytosol	HPA
+CLIC4	Cytosol		Supported	Centrosome;Plasma membrane	Calyx;Connecting piece;Principal piece	Secretory	HPA
+CMPK1	Cytosol		Supported	Nucleoplasm		Nucleus	HPA
+CNEP1R1	Secretory		Supported	Cytosol		Cytosol	HPA
+CNPY3	Nucleus	Secretory					MetaMass
+COA7	Nucleus	Mitochondria					MetaMass
+COASY	Cytosol		Supported	Mitochondria	Connecting piece	Mitochondria	HPA
+COPS4	Cytosol		Supported	Nuclear speckles		Nucleus	HPA
+COQ3	Secretory	Mitochondria					MetaMass
+COQ7	Secretory	Mitochondria					MetaMass
+COX17	Nucleus	Mitochondria	Supported	Mitochondria		Mitochondria	both
+CPOX	Nucleus	Mitochondria	Supported	Mitochondria		Mitochondria	both
+CRTC2	Cytosol		Enhanced	Nucleoplasm		Nucleus	HPA
+CTNNB1	Mitochondria		Enhanced	Plasma membrane	Basal body;Cell Junctions;Primary cilium	Secretory	HPA
+CTNND1	Mitochondria		Enhanced	Plasma membrane	Basal body	Secretory	HPA
+CXorf23	Nucleus	Mitochondria					MetaMass
+CYB5B	Secretory	Mitochondria					MetaMass
+CYB5R4	Cytosol	Secretory					MetaMass
+DBNL	Cytosol		Supported	Plasma membrane;Vesicles		Secretory	HPA
+DCUN1D1	Cytosol	Nucleus					MetaMass
+DCUN1D3	Secretory	Secretory	Supported	Cytosol;Nucleoplasm		Cytosol;Nucleus	HPA
+DDX28	Secretory		Supported	Mitochondria	Cytosol;Nucleoli	Cytosol;Mitochondria;Nucleus	HPA
+DHX30	Secretory		Supported	Mitochondria	Cytosol	Cytosol;Mitochondria	HPA
+DIABLO	Nucleus		Supported	Mitochondria	Cytosol;End piece;Flagellar centriole;Mid piece;Principal piece	Cytosol;Mitochondria	HPA
+DIP2A	Cytosol	Nucleus					MetaMass
+DLAT	Secretory	Mitochondria	Supported	Mitochondria	Connecting piece	Mitochondria	both
+DNA2	Cytosol		Supported	Mitochondria		Mitochondria	HPA
+DPY19L1	Secretory	Nucleus					MetaMass
+DPY19L3	Secretory	Nucleus					MetaMass
+DPY19L4	Secretory	Nucleus					MetaMass
+DSCR3	Cytosol	Nucleus					MetaMass
+DTNB	Mitochondria	Cytosol					MetaMass
+DUSP12	Cytosol	Nucleus	Supported	Nucleoplasm		Nucleus	both
+DUSP3	Cytosol	Nucleus	Supported	Nucleoplasm	Cytosol	Cytosol;Nucleus	MetaMass
+DYRK1A	Cytosol	Nucleus	Supported	Nuclear speckles	Centrosome;Cytosol;Nucleoplasm	Cytosol;Nucleus	MetaMass
+DZIP3	Secretory	Cytosol					MetaMass
+ECSIT	Mitochondria		Supported	Nucleoplasm	Cytosol	Cytosol;Nucleus	HPA
+ECT2	Secretory		Enhanced	Nucleoplasm	Cytosol	Cytosol;Nucleus	HPA
+EEF1D	Cytosol	Nucleus	Supported	Nucleoli fibrillar center;Nucleoplasm		Nucleus	both
+EIF1AD	Cytosol	Nucleus					MetaMass
+EIF6	Cytosol		Supported	Nucleoplasm		Nucleus	HPA
+ELP4	Cytosol		Supported	Nucleoplasm		Nucleus	HPA
+EMC8	Secretory	Cytosol	Supported	Endoplasmic reticulum	Golgi apparatus	Secretory	MetaMass
+ENDOG	Nucleus	Mitochondria					MetaMass
+ERF	Cytosol	Nucleus	Supported	Nucleoplasm	Cytosol;Nucleoli;Plasma membrane	Cytosol;Nucleus;Secretory	MetaMass
+EZR	Cytosol		Supported	Plasma membrane		Secretory	HPA
+FAM107B	Cytosol		Supported	Nucleoplasm	Golgi apparatus	Nucleus;Secretory	HPA
+FAM120A	Nucleus		Enhanced	Cytosol		Cytosol	HPA
+FAM136A	Nucleus	Cytosol					MetaMass
+FARSA	Nucleus	Cytosol					MetaMass
+FARSB	Nucleus	Cytosol	Supported	Nucleoplasm	Cytosol	Cytosol;Nucleus	MetaMass
+FASTK	Secretory	Mitochondria	Supported	Mitochondria	Nuclear speckles	Mitochondria;Nucleus	both
+FASTKD3	Secretory	Mitochondria	Supported	Mitochondria;Nucleoplasm		Mitochondria;Nucleus	both
+FBLIM1	Cytosol	Cytosol	Enhanced	Cell Junctions;Focal adhesion sites	Nucleoli fibrillar center	Nucleus	HPA
+FBXL4	Mitochondria		Supported	Nuclear speckles		Nucleus	HPA
+FKBP14	Nucleus	Secretory					MetaMass
+FKBP3	Cytosol	Nucleus	Supported	Cytosol		Cytosol	MetaMass
+FKBPL	Cytosol	Secretory					MetaMass
+FMNL2	Secretory	Cytosol					MetaMass
+FNBP1	Cytosol		Supported	Plasma membrane	Vesicles	Secretory	HPA
+FOXO3	Cytosol		Enhanced	Nucleoplasm		Nucleus	HPA
+FXR2	Nucleus	Cytosol	Supported	Cytosol		Cytosol	both
+GABARAP	Cytosol		Supported	Vesicles		Secretory	HPA
+GADD45GIP1	Secretory		Supported	Mitochondria		Mitochondria	HPA
+GCNT1	Secretory	Secretory	Supported	Nuclear speckles		Nucleus	HPA
+GGA1	Cytosol	Secretory	Supported	Golgi apparatus;Vesicles	Nucleoplasm	Nucleus;Secretory	both
+GGA3	Cytosol	Secretory	Supported	Golgi apparatus		Secretory	both
+GLA	Nucleus	Secretory					MetaMass
+GLOD4	Cytosol	Mitochondria					MetaMass
+GNA13	Secretory		Supported	Cytosol		Cytosol	HPA
+GNPNAT1	Cytosol	Secretory					MetaMass
+GOLGA3	Cytosol		Supported	Golgi apparatus	Nucleoplasm	Nucleus;Secretory	HPA
+GOLPH3L	Cytosol	Secretory	Supported	Golgi apparatus	Cytosol	Cytosol;Secretory	MetaMass
+GPSM1	Cytosol		Supported	Golgi apparatus	Nucleoplasm	Nucleus;Secretory	HPA
+GRAMD3	Secretory	Cytosol					MetaMass
+GRAMD4	Secretory	Mitochondria					MetaMass
+GRIPAP1	Cytosol	Secretory					MetaMass
+GRSF1	Secretory		Enhanced	Mitochondria		Mitochondria	HPA
+GSK3B	Cytosol		Enhanced	Nucleoplasm		Nucleus	HPA
+GSS	Cytosol	Cytosol	Supported	Nucleoplasm		Nucleus	HPA
+GTF2IRD1	Mitochondria	Nucleus	Supported	Nucleoplasm	Cytosol	Cytosol;Nucleus	both
+GTF3A	Cytosol	Nucleus	Supported	Nucleoplasm		Nucleus	both
+GTPBP6	Mitochondria	Cytosol					MetaMass
+HDDC2	Cytosol	Mitochondria					MetaMass
+HIP1	Mitochondria		Supported	Vesicles	Acrosome;Mid piece;Principal piece	Secretory	HPA
+HRAS	Secretory		Supported	Cytosol	Basal body;Nucleoplasm	Cytosol;Nucleus	HPA
+HSBP1	Cytosol	Nucleus	Supported	Nuclear speckles;Plasma membrane	Golgi apparatus	Nucleus;Secretory	both
+HTATIP2	Secretory		Supported	Cytosol		Cytosol	HPA
+IDI1	Cytosol	Secretory					MetaMass
+IDS	Nucleus	Secretory					MetaMass
+IFIT5	Cytosol		Supported	Plasma membrane		Secretory	HPA
+IGF2BP2	Nucleus		Enhanced	Cytosol		Cytosol	HPA
+INPP4A	Cytosol	Cytosol	Supported	Nuclear membrane;Nucleoplasm		Nucleus	HPA
+IST1	Cytosol		Supported	Vesicles		Secretory	HPA
+ITPKC	Cytosol		Supported	Nuclear speckles		Nucleus	HPA
+JPH1	Secretory		Enhanced	Nucleoplasm		Nucleus	HPA
+JUP	Mitochondria		Supported	Cell Junctions;Plasma membrane	Vesicles	Secretory	HPA
+KIAA0753	Secretory	Cytosol	Supported	Centrosome	Basal body;Cytosol;Primary cilium	Cytosol	both
+KIAA1109	Secretory	Nucleus					MetaMass
+KIF18A	Nucleus		Supported	Cytokinetic bridge;Microtubules		Cytosol	HPA
+KPNA4	Cytosol		Enhanced	Nucleoplasm	Nuclear membrane	Nucleus	HPA
+KRAS	Secretory		Supported	Cytosol		Cytosol	HPA
+LACTB	Secretory	Mitochondria	Supported	Mitochondria	Cytosol;Mitotic chromosome;Nuclear membrane	Cytosol;Mitochondria;Nucleus	both
+LARP1	Nucleus	Cytosol	Supported	Cytosol;Endoplasmic reticulum;Nucleoplasm		Cytosol;Nucleus;Secretory	MetaMass
+LARP4B	Nucleus		Enhanced	Cytosol		Cytosol	HPA
+LBR	Secretory	Nucleus	Supported	Nuclear membrane	Nucleoli fibrillar center	Nucleus	both
+LEMD2	Mitochondria	Nucleus	Supported	Nuclear membrane		Nucleus	both
+LIMD1	Cytosol		Supported	Focal adhesion sites;Nucleoplasm		Nucleus	HPA
+LMLN	Secretory		Supported	Cytosol	Focal adhesion sites	Cytosol	HPA
+LRPAP1	Nucleus		Enhanced	Endoplasmic reticulum		Secretory	HPA
+LRRC1	Mitochondria		Supported	Cytosol		Cytosol	HPA
+LSM1	Cytosol	Nucleus					MetaMass
+LYRM1	Mitochondria	Nucleus	Supported	Nucleoplasm	Midbody	Nucleus	both
+MACROD1	Mitochondria	Nucleus	Supported	Nucleoplasm		Nucleus	both
+MAPK8	Cytosol		Supported	Nucleoplasm		Nucleus	HPA
+MESDC2	Nucleus	Secretory					MetaMass
+MGST3	Mitochondria	Secretory					MetaMass
+MICAL2	Secretory	Nucleus					MetaMass
+MKKS	Mitochondria	Cytosol	Supported	Basal body;Centrosome			MetaMass
+MKL2	Cytosol	Nucleus					MetaMass
+MKNK1	Cytosol		Supported	Nucleoplasm		Nucleus	HPA
+MOV10	Nucleus	Cytosol					MetaMass
+MPP6	Mitochondria	Secretory					MetaMass
+MPP7	Mitochondria	Cytosol	Supported	Cell Junctions	Nucleoplasm	Nucleus	both
+MRM1	Secretory	Mitochondria	Supported	Mitochondria		Mitochondria	both
+MRPL1	Secretory	Mitochondria					MetaMass
+MRPL11	Secretory	Mitochondria	Supported	Mitochondria	Primary cilium	Mitochondria	both
+MRPL13	Secretory	Mitochondria					MetaMass
+MRPL15	Secretory	Mitochondria	Supported	Mitochondria	Nucleoplasm	Mitochondria;Nucleus	both
+MRPL16	Secretory	Mitochondria					MetaMass
+MRPL17	Secretory	Mitochondria					MetaMass
+MRPL18	Secretory	Mitochondria	Supported	Mitochondria		Mitochondria	both
+MRPL19	Secretory	Mitochondria	Supported	Mitochondria		Mitochondria	both
+MRPL2	Secretory	Mitochondria	Supported	Mitochondria	Nucleoplasm	Mitochondria;Nucleus	both
+MRPL21	Secretory	Mitochondria					MetaMass
+MRPL22	Secretory	Mitochondria					MetaMass
+MRPL24	Secretory	Mitochondria					MetaMass
+MRPL27	Secretory	Mitochondria					MetaMass
+MRPL28	Secretory	Mitochondria	Supported	Mitochondria		Mitochondria	both
+MRPL3	Secretory	Mitochondria					MetaMass
+MRPL34	Secretory	Mitochondria	Supported	Mitochondria		Mitochondria	both
+MRPL39	Secretory	Mitochondria	Supported	Mitochondria		Mitochondria	both
+MRPL40	Secretory	Mitochondria	Supported	Mitochondria	Nucleoli	Mitochondria;Nucleus	both
+MRPL41	Secretory	Mitochondria	Supported	Mitochondria		Mitochondria	both
+MRPL42	Secretory	Mitochondria	Supported	Mitochondria	Plasma membrane	Mitochondria;Secretory	MetaMass
+MRPL43	Secretory	Mitochondria					MetaMass
+MRPL45	Secretory	Mitochondria	Enhanced	Mitochondria		Mitochondria	both
+MRPL46	Secretory	Mitochondria	Supported	Mitochondria	Cell Junctions;Cytosol;Nucleoplasm	Cytosol;Mitochondria;Nucleus	both
+MRPL47	Secretory	Mitochondria	Supported	Mitochondria		Mitochondria	both
+MRPL48	Secretory	Mitochondria	Supported	Mitochondria		Mitochondria	both
+MRPL49	Secretory	Mitochondria					MetaMass
+MRPL50	Secretory	Mitochondria	Supported	Mitochondria	Cytosol	Cytosol;Mitochondria	both
+MRPL53	Secretory	Mitochondria	Supported	Mitochondria		Mitochondria	both
+MRPL54	Secretory	Mitochondria					MetaMass
+MRPL55	Secretory	Mitochondria					MetaMass
+MRPL9	Secretory	Mitochondria	Enhanced	Mitochondria		Mitochondria	both
+MRPS10	Secretory	Mitochondria					MetaMass
+MRPS11	Secretory	Mitochondria	Supported	Mitochondria		Mitochondria	both
+MRPS12	Secretory	Mitochondria					MetaMass
+MRPS14	Secretory	Mitochondria	Supported	Mitochondria	Nuclear membrane	Mitochondria;Nucleus	both
+MRPS15	Secretory	Mitochondria	Supported	Mitochondria		Mitochondria	both
+MRPS16	Secretory	Mitochondria	Supported	Mitochondria	Cytosol	Cytosol;Mitochondria	both
+MRPS18A	Secretory	Mitochondria					MetaMass
+MRPS18B	Secretory	Mitochondria	Supported	Mitochondria	Cell Junctions	Mitochondria	both
+MRPS22	Secretory	Mitochondria	Supported	Mitochondria		Mitochondria	both
+MRPS23	Secretory	Mitochondria	Supported	Mitochondria	Nuclear membrane	Mitochondria;Nucleus	both
+MRPS25	Secretory	Mitochondria	Supported	Mitochondria		Mitochondria	both
+MRPS28	Secretory	Mitochondria	Supported	Mitochondria		Mitochondria	both
+MRPS30	Secretory	Mitochondria					MetaMass
+MRPS31	Secretory	Mitochondria	Supported	Mitochondria	Nucleoli	Mitochondria;Nucleus	both
+MRPS34	Secretory	Mitochondria	Supported	Mitochondria		Mitochondria	both
+MRPS35	Secretory	Mitochondria	Supported	Mitochondria	Connecting piece;Cytosol	Cytosol;Mitochondria	both
+MRPS5	Secretory	Mitochondria	Supported	Mitochondria	Midbody;Primary cilium	Mitochondria	both
+MRPS9	Secretory	Mitochondria	Supported	Mitochondria		Mitochondria	both
+MSI2	Nucleus	Cytosol	Supported	Cytosol		Cytosol	both
+MSTO1	Cytosol	Mitochondria	Enhanced	Cytosol		Cytosol	MetaMass
+MTMR2	Cytosol		Supported	Vesicles		Secretory	HPA
+MVP	Nucleus		Enhanced	Cytosol		Cytosol	HPA
+MYCBP2	Secretory	Nucleus	Supported	Nucleoplasm	Cytosol;Vesicles	Cytosol;Nucleus;Secretory	MetaMass
+NAA50	Cytosol	Cytosol	Supported	Nucleoli		Nucleus	HPA
+NANS	Cytosol	Cytosol	Enhanced	Nucleoplasm		Nucleus	HPA
+NAP1L4	Cytosol	Nucleus	Supported	Nucleoplasm		Nucleus	both
+NAT14	Secretory	Nucleus					MetaMass
+NEK7	Cytosol		Supported	Nucleoplasm		Nucleus	HPA
+NFXL1	Secretory	Nucleus					MetaMass
+NGRN	Secretory		Supported	Mitochondria	Cytokinetic bridge;Nucleoplasm	Mitochondria;Nucleus	HPA
+NMT1	Nucleus		Supported	Cytosol	Plasma membrane	Cytosol;Secretory	HPA
+NSF	Secretory	Cytosol	Supported	Cytosol;Golgi apparatus	Acrosome;End piece;Equatorial segment;Mid piece;Principal piece	Cytosol;Secretory	MetaMass
+NUB1	Cytosol	Nucleus	Enhanced	Nucleoli;Nucleoplasm		Nucleus	both
+NUDT15	Cytosol	Cytosol	Supported	Nucleoplasm		Nucleus	HPA
+NUDT16	Cytosol		Supported	Nucleoli;Nucleoplasm		Nucleus	HPA
+NUDT2	Cytosol	Mitochondria					MetaMass
+OARD1	Cytosol		Supported	Nucleoli;Nucleoplasm		Nucleus	HPA
+OCIAD1	Mitochondria	Secretory					MetaMass
+OCIAD2	Mitochondria	Secretory	Enhanced	Mitochondria		Mitochondria	MetaMass
+ODF2	Mitochondria		Supported	Basal body;Centrosome;Connecting piece;Primary cilium	Calyx;Microtubules;Mid piece;Principal piece;Vesicles	Cytosol;Secretory	HPA
+ORAI2	Secretory		Supported	Mitochondria;Nucleoplasm	Cytosol	Cytosol;Mitochondria;Nucleus	HPA
+OTUD5	Nucleus	Cytosol					MetaMass
+OXR1	Cytosol	Mitochondria					MetaMass
+P4HB	Nucleus		Supported	Endoplasmic reticulum		Secretory	HPA
+PABPC1	Nucleus		Supported	Cytosol		Cytosol	HPA
+PAIP2	Cytosol	Cytosol	Supported	Vesicles		Secretory	HPA
+PBK	Cytosol	Nucleus					MetaMass
+PBXIP1	Secretory		Supported	Nucleoplasm	Cytosol	Cytosol;Nucleus	HPA
+PCNA	Cytosol		Enhanced	Nucleoplasm		Nucleus	HPA
+PCYT2	Cytosol	Secretory					MetaMass
+PDCD2	Cytosol	Nucleus					MetaMass
+PDE6D	Cytosol		Supported	Vesicles		Secretory	HPA
+PDHX	Secretory	Mitochondria					MetaMass
+PDSS2	Mitochondria	Mitochondria	Supported	Cytosol		Cytosol	HPA
+PEX19	Cytosol		Supported	Peroxisomes		Secretory	HPA
+PFKFB2	Cytosol	Cytosol	Enhanced	Nucleoplasm		Nucleus	HPA
+PHYKPL	Cytosol	Mitochondria					MetaMass
+PI4K2B	Secretory		Supported	Cytosol		Cytosol	HPA
+PI4KB	Cytosol		Supported	Golgi apparatus		Secretory	HPA
+PIN4	Cytosol		Supported	Nucleoli;Nucleoplasm	Mitotic chromosome	Nucleus	HPA
+PISD	Mitochondria	Mitochondria	Supported	Cytosol	Golgi apparatus	Cytosol;Secretory	HPA
+PKP2	Mitochondria		Enhanced	Cell Junctions	Nucleoplasm	Nucleus	HPA
+PKP4	Mitochondria		Enhanced	Cell Junctions	Plasma membrane	Secretory	HPA
+PLCB3	Cytosol		Supported	Golgi apparatus;Nucleoplasm		Nucleus;Secretory	HPA
+PLEKHH3	Secretory	Cytosol					MetaMass
+PM20D2	Cytosol	Nucleus	Enhanced	Nucleoplasm		Nucleus	both
+PMVK	Cytosol	Secretory					MetaMass
+POLRMT	Secretory	Mitochondria	Supported	Mitochondria		Mitochondria	both
+PPA1	Cytosol	Cytosol	Supported	Vesicles		Secretory	HPA
+PPM1H	Cytosol		Supported	Nucleoplasm		Nucleus	HPA
+PPME1	Cytosol		Supported	Nucleoplasm	Nuclear bodies	Nucleus	HPA
+PPP1R7	Cytosol	Nucleus					MetaMass
+PPP2R5C	Cytosol	Nucleus					MetaMass
+PRKAR1B	Cytosol	Secretory					MetaMass
+PRNP	Secretory	Mitochondria					MetaMass
+PSMA1	Cytosol		Supported	Nucleoplasm	Centrosome;Nuclear bodies	Nucleus	HPA
+PSMB2	Cytosol		Enhanced	Nucleoplasm		Nucleus	HPA
+PSMB4	Cytosol		Supported	Nucleoplasm	Mitochondria	Mitochondria;Nucleus	HPA
+PSMB5	Cytosol		Supported	Nucleoplasm	Centrosome;Mid piece;Principal piece	Nucleus	HPA
+PSMD14	Cytosol		Supported	Nucleoplasm		Nucleus	HPA
+PSME4	Cytosol		Supported	Nucleoplasm		Nucleus	HPA
+PTRH2	Secretory	Mitochondria	Supported	Mitochondria		Mitochondria	both
+PTTG1IP	Secretory		Supported	Nucleoplasm		Nucleus	HPA
+R3HDM2	Cytosol	Nucleus	Supported	Nucleoplasm		Nucleus	both
+RAB24	Secretory		Supported	Cytosol		Cytosol	HPA
+RABEPK	Cytosol		Supported	Vesicles		Secretory	HPA
+RACGAP1	Mitochondria		Enhanced	Nucleoplasm		Nucleus	HPA
+RAD23A	Cytosol	Nucleus	Supported	Nucleoplasm	Cytosol;Golgi apparatus;Vesicles	Cytosol;Nucleus;Secretory	MetaMass
+RAN	Cytosol		Supported	Nucleoplasm		Nucleus	HPA
+RBBP9	Cytosol		Supported	Nucleoplasm		Nucleus	HPA
+RBX1	Cytosol		Supported	Nucleoplasm		Nucleus	HPA
+RCN1	Nucleus	Secretory	Supported	Endoplasmic reticulum		Secretory	both
+RDH14	Secretory		Enhanced	Nucleoplasm	Cytosol	Cytosol;Nucleus	HPA
+RDX	Cytosol		Supported	Plasma membrane	Nucleoplasm	Nucleus;Secretory	HPA
+REL	Cytosol	Nucleus					MetaMass
+REXO2	Cytosol		Supported	Mitochondria	Focal adhesion sites;Nucleoli	Mitochondria;Nucleus	HPA
+RMDN2	Mitochondria		Supported	Cytosol;Mitotic spindle	Golgi apparatus	Cytosol;Secretory	HPA
+RNMTL1	Secretory	Mitochondria					MetaMass
+RPL10	Nucleus	Secretory	Enhanced	Cytosol;Endoplasmic reticulum		Cytosol;Secretory	both
+RPL11	Nucleus	Secretory					MetaMass
+RPL12	Nucleus	Secretory					MetaMass
+RPL13A	Nucleus	Secretory					MetaMass
+RPL14	Nucleus	Secretory	Supported	Cytosol;Endoplasmic reticulum		Cytosol;Secretory	both
+RPL15	Nucleus	Secretory					MetaMass
+RPL18	Nucleus	Secretory	Supported	Cytosol;Endoplasmic reticulum	Nucleoli	Cytosol;Nucleus;Secretory	MetaMass
+RPL18A	Nucleus	Secretory					MetaMass
+RPL21	Nucleus	Secretory	Supported	Cytosol;Endoplasmic reticulum;Nucleoli fibrillar center		Cytosol;Nucleus;Secretory	MetaMass
+RPL22L1	Nucleus	Secretory					MetaMass
+RPL23A	Nucleus	Secretory					MetaMass
+RPL27	Nucleus	Secretory	Enhanced	Nucleoli	Nucleoplasm	Nucleus	MetaMass
+RPL28	Nucleus	Secretory	Supported	Cytosol;Endoplasmic reticulum		Cytosol;Secretory	both
+RPL3	Nucleus	Secretory	Supported	Cytosol;Nucleoli		Cytosol;Nucleus	MetaMass
+RPL30	Nucleus	Secretory					MetaMass
+RPL34	Nucleus	Secretory	Supported	Cytosol;Endoplasmic reticulum	Nucleoli	Cytosol;Nucleus;Secretory	MetaMass
+RPL35A	Nucleus	Secretory					MetaMass
+RPL36	Nucleus	Secretory	Supported	Cytosol		Cytosol	both
+RPL37A	Nucleus	Secretory					MetaMass
+RPL3L	Nucleus	Secretory					MetaMass
+RPL4	Nucleus	Secretory	Supported	Cytosol;Endoplasmic reticulum	Nuclear bodies;Nucleoli	Cytosol;Nucleus;Secretory	MetaMass
+RPL6	Nucleus	Secretory					MetaMass
+RPL7	Nucleus	Secretory	Supported	Cytosol;Endoplasmic reticulum	Nucleoli	Cytosol;Nucleus;Secretory	MetaMass
+RPL7A	Nucleus	Secretory					MetaMass
+RPL7L1	Nucleus	Secretory					MetaMass
+RPL9	Nucleus	Secretory	Supported	Cytosol;Endoplasmic reticulum	Nucleoli	Cytosol;Nucleus;Secretory	MetaMass
+RPLP0	Nucleus	Secretory	Supported	Cytosol;Endoplasmic reticulum		Cytosol;Secretory	both
+RPLP2	Nucleus	Secretory					MetaMass
+RPS4X	Nucleus	Secretory					MetaMass
+RPS6KA1	Cytosol	Secretory	Supported	Cytosol	Nucleoplasm	Cytosol;Nucleus	MetaMass
+RPS6KB1	Cytosol	Secretory	Supported	Nucleoplasm		Nucleus	both
+RPS7	Nucleus	Secretory	Supported	Cytosol;Endoplasmic reticulum		Cytosol;Secretory	both
+RPS8	Nucleus	Secretory	Enhanced	Cytosol;Endoplasmic reticulum		Cytosol;Secretory	both
+RRP7A	Nucleus	Cytosol	Supported	Nucleoli	Cell Junctions;Nucleoplasm	Nucleus	MetaMass
+SAR1A	Cytosol		Supported	Endoplasmic reticulum		Secretory	HPA
+SCRIB	Mitochondria		Enhanced	Cell Junctions;Plasma membrane	Nucleoplasm;Rods & Rings	Nucleus;Secretory	HPA
+SEC23IP	Cytosol		Enhanced	Vesicles		Secretory	HPA
+SETD7	Cytosol	Nucleus	Enhanced	Nucleoli;Nucleoli rim	Mitotic chromosome	Nucleus	both
+SGPP1	Secretory	Secretory	Supported	Nucleoplasm		Nucleus	HPA
+SGTA	Cytosol		Supported	Nucleoplasm		Nucleus	HPA
+SH3RF1	Cytosol		Supported	Vesicles	Intermediate filaments	Secretory	HPA
+SHQ1	Cytosol		Supported	Nucleoplasm		Nucleus	HPA
+SKIV2L	Cytosol	Nucleus					MetaMass
+SLC11A2	Secretory		Supported	Mitochondria		Mitochondria	HPA
+SLC44A1	Secretory		Supported	Mitochondria	Nucleoplasm	Mitochondria;Nucleus	HPA
+SMURF2	Cytosol		Supported	Nuclear speckles		Nucleus	HPA
+SPC24	Cytosol		Supported	Nucleoplasm	Nucleoli	Nucleus	HPA
+SPECC1	Secretory	Nucleus	Supported	Nucleoplasm;Vesicles	Cytosol;Nucleoli fibrillar center	Cytosol;Nucleus;Secretory	MetaMass
+SPRED1	Secretory		Supported	Nucleoplasm		Nucleus	HPA
+SREBF1	Secretory		Enhanced	Nucleoplasm		Nucleus	HPA
+ST7	Secretory		Supported	Nucleoplasm	Cytosol	Cytosol;Nucleus	HPA
+STAU1	Nucleus		Enhanced	Cytosol		Cytosol	HPA
+STOML2	Mitochondria		Supported	Cytosol;Plasma membrane		Cytosol;Secretory	HPA
+STRBP	Nucleus	Cytosol					MetaMass
+SUOX	Nucleus	Mitochondria					MetaMass
+SWAP70	Cytosol		Supported	Plasma membrane	Actin filaments	Secretory	HPA
+TAF7	Cytosol	Nucleus					MetaMass
+TANGO2	Cytosol	Mitochondria					MetaMass
+TAPT1	Secretory		Supported	Basal body;Centrosome	Cytosol;Nucleoplasm	Cytosol;Nucleus	HPA
+TATDN1	Cytosol	Nucleus	Supported	Nucleoplasm		Nucleus	both
+TATDN3	Cytosol	Nucleus					MetaMass
+TAX1BP3	Cytosol		Supported	Actin filaments;Nucleoli fibrillar center	Vesicles	Nucleus;Secretory	HPA
+TBC1D1	Cytosol	Nucleus	Supported	Nucleoli		Nucleus	both
+TBC1D31	Secretory	Cytosol	Supported	Basal body;Centrosome			MetaMass
+TBC1D5	Cytosol		Supported	Vesicles	Golgi apparatus	Secretory	HPA
+TBK1	Cytosol		Enhanced	Nucleoplasm	Vesicles	Nucleus;Secretory	HPA
+TBL2	Secretory	Secretory	Supported	Cytosol		Cytosol	HPA
+TBPL1	Cytosol	Cytosol	Supported	Nucleoplasm	Nucleoli	Nucleus	HPA
+TCEB1	Cytosol	Nucleus					MetaMass
+TCF25	Secretory	Nucleus					MetaMass
+TEX30	Cytosol	Nucleus					MetaMass
+TFB1M	Secretory	Mitochondria					MetaMass
+TGFBRAP1	Cytosol	Secretory					MetaMass
+TMEM120A	Secretory	Nucleus					MetaMass
+TMEM120B	Secretory	Nucleus					MetaMass
+TMEM134	Secretory		Supported	Cytosol		Cytosol	HPA
+TMEM179B	Secretory		Enhanced	Nuclear speckles		Nucleus	HPA
+TMEM192	Secretory	Secretory	Supported	Endosomes;Lysosomes	Nucleoplasm	Nucleus	HPA
+TMEM65	Mitochondria		Supported	Plasma membrane;Vesicles		Secretory	HPA
+TP53I3	Cytosol		Supported	Vesicles		Secretory	HPA
+TPRG1L	Secretory	Cytosol					MetaMass
+TRIM4	Secretory	Cytosol	Supported	Cytosol	Plasma membrane	Cytosol;Secretory	MetaMass
+TRIM56	Nucleus	Cytosol					MetaMass
+TRIP10	Cytosol		Supported	Vesicles	Nucleoplasm	Nucleus;Secretory	HPA
+TRUB2	Secretory	Cytosol					MetaMass
+TTC3	Secretory	Nucleus					MetaMass
+TTC5	Cytosol		Supported	Nucleoplasm		Nucleus	HPA
+TXNDC5	Nucleus	Secretory					MetaMass
+TXNL4B	Cytosol	Nucleus	Supported	Nucleoplasm	Cytosol	Cytosol;Nucleus	MetaMass
+TXNRD1	Cytosol		Supported	Nucleoplasm		Nucleus	HPA
+UBE2O	Cytosol		Supported	Nuclear bodies	Nucleoplasm	Nucleus	HPA
+UBP1	Cytosol	Nucleus	Supported	Nucleoplasm		Nucleus	both
+UPRT	Cytosol		Supported	Nucleoplasm	Vesicles	Nucleus;Secretory	HPA
+USP5	Cytosol	Secretory					MetaMass
+UTRN	Mitochondria		Supported	Plasma membrane	Basal body;Nucleoplasm;Primary cilium	Nucleus;Secretory	HPA
+VASP	Cytosol		Supported	Cell Junctions;Focal adhesion sites;Plasma membrane		Secretory	HPA
+VEZT	Secretory		Supported	Nucleoplasm	Cytosol	Cytosol;Nucleus	HPA
+VPS13A	Secretory		Supported	Mitochondria		Mitochondria	HPA
+VPS25	Cytosol		Supported	Vesicles		Secretory	HPA
+VPS37B	Cytosol	Secretory					MetaMass
+WDR44	Cytosol		Supported	Golgi apparatus		Secretory	HPA
+WDR81	Cytosol	Mitochondria					MetaMass
+WDR83	Nucleus	Secretory					MetaMass
+WDTC1	Cytosol		Supported	Vesicles	Golgi apparatus	Secretory	HPA
+WWP2	Secretory	Nucleus					MetaMass
+YBEY	Mitochondria	Nucleus					MetaMass
+YTHDC2	Nucleus	Secretory					MetaMass
+ZBTB8OS	Cytosol	Nucleus					MetaMass
+ZFYVE1	Cytosol		Supported	Endoplasmic reticulum		Secretory	HPA
+ZNF511	Cytosol	Nucleus					MetaMass
+ZYX	Cytosol		Supported	Focal adhesion sites	Actin filaments;Plasma membrane	Secretory	HPA

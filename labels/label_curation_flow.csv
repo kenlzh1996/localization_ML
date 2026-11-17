@@ -1,0 +1,4 @@
+step,n_markers,Cytosol,Mitochondria,Nucleus,Secretory
+Orre markers,3365,1150,338,742,1135
+after MetaMass filter,3115,1075,323,683,1034
+after HPA filter (curated markers),2947,978,304,668,997

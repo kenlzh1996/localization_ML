@@ -1,0 +1,8 @@
+set,n_genes,n_labeled,Cytosol,Mitochondria,Nucleus,Secretory
+Curated markers,,2947,978,304,668,997
+Training (training pool),7902,2310,872,236,548,654
+Breast_tumor,6733,2021,830,215,484,492
+Lung_tumor,8608,2417,874,236,556,751
+Lung_NAT,8658,2417,874,236,556,751
+Brain_tumor,8189,2321,857,238,489,737
+All five cohorts (testing pool),6121,1947,812,208,451,476
